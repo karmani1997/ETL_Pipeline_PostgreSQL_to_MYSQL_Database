@@ -1,0 +1,30 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+# macOS specific files
+.DS_Store
+__MACOSX/
+
+# Local development settings
+.env
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# Unit test and coverage directories
+htmlcov/
+.coverage
+.coverage.*
+.cover/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+
+# VSCode specific files
+.vscode/
