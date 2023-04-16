@@ -1,4 +1,4 @@
-# ETL Pipeline to migrate data from PostgreSQL to MYSQL Database
+# ETL Pipeline to transform data from PostgreSQL to MYSQL Database
 ## Overview
 In this project I have generated fake data using Python's asyncio library and populate it into the PostgreSQL and there is an ETL Pipeline that extract the data from the PostgreSQL, perform transformation and aggregation, and load data into the MySQL in three different tables.
 
