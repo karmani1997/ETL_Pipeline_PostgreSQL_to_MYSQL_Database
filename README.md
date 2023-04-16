@@ -1,4 +1,4 @@
-# ETL Pipeline to migrate data from PostgreSQL Dokcer Container to MYSQL Database Docker Container
+# ETL Pipeline to migrate data from PostgreSQL to MYSQL Database
 In this project I have generate fake data using Python's asyncio library and populate it into the PostgreSQL and there is an ETL Pipeline that extract the data from the PostgreSQL, perform transformation and aggregation, and load data into the MySQL in three different tables.
 
 ## Getting Started

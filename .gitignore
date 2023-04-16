@@ -31,3 +31,4 @@ build/
 
 #jupyter notebook
 .ipynb_checkpoints/
+__pycache__/
