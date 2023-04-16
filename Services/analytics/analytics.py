@@ -17,6 +17,6 @@ def run_etl():
     max_temperatures, data_points, distance_moved = transformer.transform_data()
     loader = Loader()
     loader.load_data(max_temperatures, data_points, distance_moved)
-
+    
 if __name__ == "__main__":
 	run_etl()
