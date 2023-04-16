@@ -28,3 +28,6 @@ build/
 
 # VSCode specific files
 .vscode/
+
+#jupyter notebook
+.ipynb_checkpoints/
