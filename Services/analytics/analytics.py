@@ -9,7 +9,7 @@ from loader import Loader
 def run_etl():
 
     print('Waiting for the data generator... Mehtab')
-    sleep(50)
+    sleep(60)
     print('ETL Starting...')
 
     extractor = Extractor()

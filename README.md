@@ -1,8 +1,27 @@
-## Running the docker
+# ETL Pipeline to migrate data from PostgreSQL to MYSQL Database
+This project is an example of how to extract, transform, and load data using Python from, and how to generate fake data using Python's asyncio library.
 
-To get started run ``` docker-compose up ``` in root directory.
-It will create the PostgresSQL database and start generating the data.
-It will create an empty MySQL database.
-It will launch the analytics.py script. 
+## Getting Started
+Prerequisites
+Docker and Docker Compose
+Installation
+Clone the repository.
+bash
+Copy code
+git clone <repository_url>
+Navigate to the cloned directory.
+bash
+Copy code
+cd <repository_name>
+Run the docker-compose command.
+bash
+Copy code
+docker-compose up
+This command will create a Docker container for MySQL, PostgreSQL, and the main application. It will also create a separate Docker container for generating fake data.
 
-Your task will be to write the ETL script inside the analytics/analytics.py file.
+Once the containers are running, open a new terminal window and run the following command to start the ETL process:
+bash
+Copy code
+docker exec -it <main_container_name> python main.py
+The ETL process will extract data from the fake data generator, transform the data, and load it into a MySQL and PostgreSQL database.
+
