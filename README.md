@@ -27,7 +27,21 @@ The ETL process will extract data from the fake data generator, transform the da
 * Total distance of device movement for every device per hours.
 
 and finally load it into a MySQL and database.
-
+## Output
+* open the terminal run the command
+```
+sudo docker exec -it MySQL_Container_ID bash
+```
+* connect to the mysql
+```
+mysql --host=localhost --user=nonroot --password=nonroot analytics
+```
+* get the output to run the sql queries
+```
+select * from device_max_temperatures_hourly;
+select * from device_data_points_hourly;
+select * from device_distance_moved_hourly;
+```
 ## Built With
 * Docker
 * Python
